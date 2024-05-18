@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('Running.jpg');
+    background-position-y:center;
+    background-repeat: no-repeat;
+}
+
+h1, p {
+    color: white;
+    text-align: center;
+}
+
+#upperForm {
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+#lowerForm {
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding-bottom: 30px;
+}
+
+#formItem {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 30px;
+    flex: 100%;
+    max-width: 240px;
+}
+
+#predictButton {
+    flex: 100%;
+    max-width: 180px;
+}
+
+#response{
+    padding-bottom: 20px;
+}
+
+#Banner {
+    width: 100%;
+    background-color: rgba(100, 136, 95, 0.9);
+}
